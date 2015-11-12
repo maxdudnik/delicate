@@ -107,8 +107,6 @@ function counter(){
     };
     setInterval(counter, 1000);
 
- 
-
 /*------------------Vlidation--------------------*/
 /*-------------Header form validate-----------*/
 
@@ -230,7 +228,6 @@ $("#form1").validate({
 
 $("#form2").validate({
             rules:{
-
                   name:{
                       required: true,
                       minlength: 2,

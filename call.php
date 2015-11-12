@@ -5,6 +5,8 @@ $phone = isset($_POST["phone"]) ? trim($_POST["phone"]) : null;
 
 $msg = "";
 
+
+
 if($name && $phone) {
 	$mailto = 'kno@delikatno-nn.ru';
 	$subject_mail = "Заявка";
